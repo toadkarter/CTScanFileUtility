@@ -12,3 +12,17 @@ C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTSca
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.MainWindow.resources
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CopyComplete
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.ActionWindow.resources
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.exe.config
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.exe
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.pdb
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityLibrary.dll
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityLibrary.pdb
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.AssemblyReference.cache
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.ActionWindow.resources
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.MainWindow.resources
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.Properties.Resources.resources
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.GenerateResource.cache
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CopyComplete
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.exe
+C:\Users\Vlad\github\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.pdb

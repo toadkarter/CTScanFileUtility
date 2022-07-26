@@ -55,7 +55,6 @@
             this.label4.Size = new System.Drawing.Size(72, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Sample ID";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // sampleIdTextBox
             // 
@@ -63,7 +62,6 @@
             this.sampleIdTextBox.Name = "sampleIdTextBox";
             this.sampleIdTextBox.Size = new System.Drawing.Size(273, 22);
             this.sampleIdTextBox.TabIndex = 8;
-            this.sampleIdTextBox.TextChanged += new System.EventHandler(this.sampleIdTextBox_TextChanged);
             // 
             // projectIdTextBox
             // 
@@ -71,7 +69,6 @@
             this.projectIdTextBox.Name = "projectIdTextBox";
             this.projectIdTextBox.Size = new System.Drawing.Size(273, 22);
             this.projectIdTextBox.TabIndex = 6;
-            this.projectIdTextBox.TextChanged += new System.EventHandler(this.projectIdTextBox_TextChanged);
             // 
             // label5
             // 
@@ -81,7 +78,6 @@
             this.label5.Size = new System.Drawing.Size(81, 17);
             this.label5.TabIndex = 9;
             this.label5.Text = "Sample No.";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label3
             // 
@@ -91,7 +87,6 @@
             this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Project ID";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // currentSampleTextBox
             // 
@@ -99,7 +94,6 @@
             this.currentSampleTextBox.Name = "currentSampleTextBox";
             this.currentSampleTextBox.Size = new System.Drawing.Size(273, 22);
             this.currentSampleTextBox.TabIndex = 10;
-            this.currentSampleTextBox.TextChanged += new System.EventHandler(this.currentSampleTextBox_TextChanged);
             // 
             // userNameTextBox
             // 
@@ -107,7 +101,6 @@
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(273, 22);
             this.userNameTextBox.TabIndex = 4;
-            this.userNameTextBox.TextChanged += new System.EventHandler(this.userNameTextBox_TextChanged);
             // 
             // checkFileNameButton
             // 
@@ -127,7 +120,6 @@
             this.label2.Size = new System.Drawing.Size(73, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Username";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // introTextLabel
             // 
@@ -138,7 +130,6 @@
             this.introTextLabel.TabIndex = 12;
             this.introTextLabel.Text = "Will create file with the following name:";
             this.introTextLabel.Visible = false;
-            this.introTextLabel.Click += new System.EventHandler(this.introTextLabel_Click);
             // 
             // label1
             // 
@@ -148,7 +139,6 @@
             this.label1.Size = new System.Drawing.Size(99, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Current Folder";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // fileNameLabel
             // 
@@ -160,7 +150,6 @@
             this.fileNameLabel.TabIndex = 13;
             this.fileNameLabel.Text = "label6";
             this.fileNameLabel.Visible = false;
-            this.fileNameLabel.Click += new System.EventHandler(this.fileNameLabel_Click);
             // 
             // currentFolderTextBox
             // 
@@ -168,7 +157,6 @@
             this.currentFolderTextBox.Name = "currentFolderTextBox";
             this.currentFolderTextBox.Size = new System.Drawing.Size(273, 22);
             this.currentFolderTextBox.TabIndex = 1;
-            this.currentFolderTextBox.TextChanged += new System.EventHandler(this.currentFolderTextBox_TextChanged);
             // 
             // startButton
             // 
@@ -213,7 +201,6 @@
             this.settingsPanel.Name = "settingsPanel";
             this.settingsPanel.Size = new System.Drawing.Size(518, 510);
             this.settingsPanel.TabIndex = 15;
-            this.settingsPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingsPanel_Paint);
             // 
             // MainWindow
             // 
