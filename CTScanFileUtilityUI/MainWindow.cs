@@ -26,9 +26,15 @@ namespace CTScanFileUtilityUI
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             if (fbd.ShowDialog() == DialogResult.OK)
             {
-
-                Config.Instance.GenerateCurrentFolderNumber(fbd.SelectedPath);
-                currentFolderTextBox.Text = Convert.ToString(Config.Instance.CurrentFolder);
+                try
+                {
+                    Config.Instance.GenerateCurrentFolderNumber(fbd.SelectedPath);
+                    currentFolderTextBox.Text = Convert.ToString(Config.Instance.CurrentFolder);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Some of the subdirectcories are not in the correct format");
+                }
             }
         }
 
@@ -50,11 +56,20 @@ namespace CTScanFileUtilityUI
                 MessageBox.Show("Please initialise all fields before clicking this button");
                 return;
             }
-            CollectInfoFromFields();
-            fileNameLabel.Text = Config.Instance.FileName;
-            fileNameLabel.Visible = true;
-            introTextLabel.Visible = true;
-            startButton.Visible = true;
+            try
+            {
+                CollectInfoFromFields();
+                fileNameLabel.Text = Config.Instance.FileName;
+                fileNameLabel.Visible = true;
+                introTextLabel.Visible = true;
+                startButton.Visible = true;
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Sorry, some of the fields are not in the correct format.");
+            }
+
         }
 
         private bool FieldsAreCompleted()
