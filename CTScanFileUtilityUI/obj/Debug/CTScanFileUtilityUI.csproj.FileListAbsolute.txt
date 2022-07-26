@@ -11,3 +11,4 @@ C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTSca
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityLibrary.pdb
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.MainWindow.resources
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CopyComplete
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.ActionWindow.resources
