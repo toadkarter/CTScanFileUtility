@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace CTScanFileUtilityLibrary
 {
@@ -41,6 +42,34 @@ namespace CTScanFileUtilityLibrary
             IncrementCurrentFolder();
             IncrementCurrentSample();
             ConstructFileName();
+        }
+
+        public void GenerateCurrentFolderNumber(string directoryPath)
+        {
+            DirectoryPath = directoryPath;
+            string[] subDirectories = Directory.GetDirectories(DirectoryPath);
+
+            int maxFolder = -1;
+
+            foreach (string subDirectory in subDirectories)
+            {
+                try
+                {
+                    int currentFolder = Int32.Parse(Path.GetFileName(subDirectory));
+                    if (currentFolder > maxFolder)
+                    {
+                        maxFolder = currentFolder;
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+
+            }
+            CurrentFolder = maxFolder + 1;
         }
 
         private void ConstructFileName()

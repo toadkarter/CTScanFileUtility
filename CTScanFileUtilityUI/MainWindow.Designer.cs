@@ -29,11 +29,21 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.currentFolderTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.userNameTextBox = new System.Windows.Forms.TextBox();
+            this.projectIdTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.sampleIdTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.currentSampleTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(323, 12);
+            this.button1.Location = new System.Drawing.Point(150, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 41);
             this.button1.TabIndex = 0;
@@ -41,21 +51,123 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // currentFolderTextBox
+            // 
+            this.currentFolderTextBox.Location = new System.Drawing.Point(139, 87);
+            this.currentFolderTextBox.Name = "currentFolderTextBox";
+            this.currentFolderTextBox.Size = new System.Drawing.Size(273, 22);
+            this.currentFolderTextBox.TabIndex = 1;
+            this.currentFolderTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(34, 90);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Current Folder";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(47, 121);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Username";
+            // 
+            // userNameTextBox
+            // 
+            this.userNameTextBox.Location = new System.Drawing.Point(139, 118);
+            this.userNameTextBox.Name = "userNameTextBox";
+            this.userNameTextBox.Size = new System.Drawing.Size(273, 22);
+            this.userNameTextBox.TabIndex = 4;
+            // 
+            // projectIdTextBox
+            // 
+            this.projectIdTextBox.Location = new System.Drawing.Point(139, 153);
+            this.projectIdTextBox.Name = "projectIdTextBox";
+            this.projectIdTextBox.Size = new System.Drawing.Size(273, 22);
+            this.projectIdTextBox.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(47, 156);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 17);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Project ID";
+            // 
+            // sampleIdTextBox
+            // 
+            this.sampleIdTextBox.Location = new System.Drawing.Point(139, 190);
+            this.sampleIdTextBox.Name = "sampleIdTextBox";
+            this.sampleIdTextBox.Size = new System.Drawing.Size(273, 22);
+            this.sampleIdTextBox.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 193);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(72, 17);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Sample ID";
+            // 
+            // currentSampleTextBox
+            // 
+            this.currentSampleTextBox.Location = new System.Drawing.Point(139, 226);
+            this.currentSampleTextBox.Name = "currentSampleTextBox";
+            this.currentSampleTextBox.Size = new System.Drawing.Size(273, 22);
+            this.currentSampleTextBox.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(47, 231);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 17);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Sample No.";
+            // 
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(486, 397);
+            this.Controls.Add(this.currentSampleTextBox);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.sampleIdTextBox);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.projectIdTextBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.userNameTextBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.currentFolderTextBox);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "MainWindow";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox currentFolderTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox userNameTextBox;
+        private System.Windows.Forms.TextBox projectIdTextBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox sampleIdTextBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox currentSampleTextBox;
+        private System.Windows.Forms.Label label5;
     }
 }
 
