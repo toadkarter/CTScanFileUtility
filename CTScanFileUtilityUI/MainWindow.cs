@@ -26,7 +26,7 @@ namespace CTScanFileUtilityUI
             FolderBrowserDialog fbd = new FolderBrowserDialog();
             if (fbd.ShowDialog() == DialogResult.OK)
             {
-                //Clipboard.SetText(fbd.SelectedPath);
+
                 Config.Instance.GenerateCurrentFolderNumber(fbd.SelectedPath);
                 currentFolderTextBox.Text = Convert.ToString(Config.Instance.CurrentFolder);
             }
