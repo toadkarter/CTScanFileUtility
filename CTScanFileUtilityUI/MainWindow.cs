@@ -27,14 +27,28 @@ namespace CTScanFileUtilityUI
             if (fbd.ShowDialog() == DialogResult.OK)
             {
                 //Clipboard.SetText(fbd.SelectedPath);
-                
-                currentFolderTextBox.Text = 
+                Config.Instance.GenerateCurrentFolderNumber(fbd.SelectedPath);
+                currentFolderTextBox.Text = Convert.ToString(Config.Instance.CurrentFolder);
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void CollectInfoFromFields()
         {
-            currentFolderTextBox
+            Config.Instance.CurrentFolder = Int32.Parse(currentFolderTextBox.Text);
+            Config.Instance.UserName= userNameTextBox.Text;
+            Config.Instance.ProjectId = projectIdTextBox.Text;
+            Config.Instance.SampleId = sampleIdTextBox.Text;
+            Config.Instance.CurrentSample = Int32.Parse(currentSampleTextBox.Text);
+
+            Config.Instance.ConstructFileName();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CollectInfoFromFields();
+            fileNameLabel.Text = Config.Instance.FileName;
+            fileNameLabel.Visible = true;
+            introTextLabel.Visible = true;
         }
     }
 }

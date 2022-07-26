@@ -72,7 +72,7 @@ namespace CTScanFileUtilityLibrary
             CurrentFolder = maxFolder + 1;
         }
 
-        private void ConstructFileName()
+        public void ConstructFileName()
         {
             FileName = $"{CurrentFolder}_{UserName}_{ProjectId}_{SampleId}{CurrentSample}";
         }

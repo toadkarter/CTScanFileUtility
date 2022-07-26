@@ -39,6 +39,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.currentSampleTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.introTextLabel = new System.Windows.Forms.Label();
+            this.fileNameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -57,7 +60,6 @@
             this.currentFolderTextBox.Name = "currentFolderTextBox";
             this.currentFolderTextBox.Size = new System.Drawing.Size(273, 22);
             this.currentFolderTextBox.TabIndex = 1;
-            this.currentFolderTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -132,11 +134,45 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Sample No.";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(168, 270);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(132, 35);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Check File Name";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // introTextLabel
+            // 
+            this.introTextLabel.AutoSize = true;
+            this.introTextLabel.Location = new System.Drawing.Point(116, 319);
+            this.introTextLabel.Name = "introTextLabel";
+            this.introTextLabel.Size = new System.Drawing.Size(249, 17);
+            this.introTextLabel.TabIndex = 12;
+            this.introTextLabel.Text = "Will create file with the following name:";
+            this.introTextLabel.Visible = false;
+            // 
+            // fileNameLabel
+            // 
+            this.fileNameLabel.AutoSize = true;
+            this.fileNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fileNameLabel.Location = new System.Drawing.Point(83, 353);
+            this.fileNameLabel.Name = "fileNameLabel";
+            this.fileNameLabel.Size = new System.Drawing.Size(66, 24);
+            this.fileNameLabel.TabIndex = 13;
+            this.fileNameLabel.Text = "label6";
+            this.fileNameLabel.Visible = false;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(486, 397);
+            this.ClientSize = new System.Drawing.Size(486, 464);
+            this.Controls.Add(this.fileNameLabel);
+            this.Controls.Add(this.introTextLabel);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.currentSampleTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.sampleIdTextBox);
@@ -149,7 +185,7 @@
             this.Controls.Add(this.currentFolderTextBox);
             this.Controls.Add(this.button1);
             this.Name = "MainWindow";
-            this.Text = "Form1";
+            this.Text = "CT Scan File Utility";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -168,6 +204,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox currentSampleTextBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label introTextLabel;
+        private System.Windows.Forms.Label fileNameLabel;
     }
 }
 
