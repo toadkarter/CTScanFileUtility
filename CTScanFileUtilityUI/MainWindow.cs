@@ -66,6 +66,14 @@ namespace CTScanFileUtilityUI
                 currentFolderTextBox.Text != "";
         }
 
+        private void GenerateNewSampleAction()
+        {
+            Directory.CreateDirectory($"{Config.Instance.DirectoryPath}\\{Config.Instance.CurrentFolder}");
+            Clipboard.SetText(Config.Instance.FileName);
+        }
+
+
+
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -75,6 +83,7 @@ namespace CTScanFileUtilityUI
         {
             ActionWindow actionWindow = new ActionWindow();
             actionWindow.Show();
+            GenerateNewSampleAction();
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
