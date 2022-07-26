@@ -25,7 +25,7 @@ namespace CTScanFileUtilityUI
 
         private void SetLogbookEntryLabel()
         {
-            logbookEntryLabel.Text = $"{Config.Instance.CurrentFolder} | {Config.Instance.ProjectId}_{Config.Instance.CurrentSample}";
+            logbookEntryLabel.Text = $"{Config.Instance.CurrentFolder} | {Config.Instance.ProjectId}_{Config.Instance.SampleId}{Config.Instance.CurrentSample}";
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
