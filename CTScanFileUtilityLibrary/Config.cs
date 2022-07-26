@@ -48,6 +48,11 @@ namespace CTScanFileUtilityLibrary
             FileName = $"{CurrentFolder}_{UserName}_{ProjectId}_{SampleId}{CurrentSample}";
         }
 
+        private void SetFileNameToClipboard()
+        {
+            
+        }
+
         private void IncrementCurrentFolder()
         {
             CurrentFolder += 1;

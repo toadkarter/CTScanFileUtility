@@ -7,4 +7,7 @@ C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTSca
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CoreCompileInputs.cache
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.exe
 C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.pdb
-C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.Form1.resources
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityLibrary.dll
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityLibrary.pdb
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.MainWindow.resources
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CopyComplete

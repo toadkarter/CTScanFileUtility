@@ -1,6 +1,6 @@
 ﻿namespace CTScanFileUtilityUI
 {
-    partial class Form1
+    partial class MainWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -33,9 +33,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(292, 36);
+            this.button1.Location = new System.Drawing.Point(323, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 23);
+            this.button1.Size = new System.Drawing.Size(150, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Select Directory";
             this.button1.UseVisualStyleBackColor = true;

@@ -1,0 +1,6 @@
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\bin\Debug\CTScanFileUtilityLibrary.dll
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\bin\Debug\CTScanFileUtilityLibrary.pdb
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\obj\Debug\CTScanFileUtilityLibrary.csprojAssemblyReference.cache
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\obj\Debug\CTScanFileUtilityLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\obj\Debug\CTScanFileUtilityLibrary.dll
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityLibrary\obj\Debug\CTScanFileUtilityLibrary.pdb
