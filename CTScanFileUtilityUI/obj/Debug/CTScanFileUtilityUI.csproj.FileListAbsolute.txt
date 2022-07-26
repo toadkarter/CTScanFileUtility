@@ -1,0 +1,10 @@
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.exe.config
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.exe
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\bin\Debug\CTScanFileUtilityUI.pdb
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csprojAssemblyReference.cache
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.Properties.Resources.resources
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.GenerateResource.cache
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.csproj.CoreCompileInputs.cache
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.exe
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.pdb
+C:\Users\Damaris\Documents\CTScanFileUtility\CTScanFileUtilityUI\obj\Debug\CTScanFileUtilityUI.Form1.resources
