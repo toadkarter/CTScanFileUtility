@@ -28,12 +28,12 @@ Next, the details of the filename format should be included in the relevant fiel
 
 Filenames in the UCD scanning facility are set up in the following format:
 
-`1077_Digiherd_1059_SZC21`
+`1077_User_1059_SZC21`
 
 where:
 
 * 1077 is the name of the folder in which the scan is located;
-* Digiherd is the username;
+* User is the username;
 * 1059 is the Project ID;
 * SZC is the general Sample ID; and
 * 21 is the Sample No. in a given batch. 
