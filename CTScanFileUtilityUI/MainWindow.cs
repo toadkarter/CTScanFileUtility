@@ -45,6 +45,11 @@ namespace CTScanFileUtilityUI
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (!Config.Instance.IsInitialised())
+            {
+                MessageBox.Show("Please initialise all fields before clicking this button");
+                return;
+            }
             CollectInfoFromFields();
             fileNameLabel.Text = Config.Instance.FileName;
             fileNameLabel.Visible = true;
